@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Denzel Baking BakingTips</title>
+  <style>
+    body {
+      background-image: url(BakingTipsBG.png);
+      background-repeat: no-repeat; /* Ensure the background does not repeat */
+      background-attachment: fixed;
+      background-size: cover;
+      margin: 0;
+      height: 100vh; /* Ensure the body takes full viewport height */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start; /* Align content to the top */
+      height:930px;
+    }
+    .buttons-container {
+      display: flex;
+      justify-content: flex-start; /* Align buttons to the top */
+      align-items: center; /* Vertically center the buttons */
+      width: 100%; /* Ensure the container takes the full width */
+      background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+      padding-bottom: 25px;
+    }
+    .form-container form input[type="submit"] {
+      font-size: 18px; /* Increase font size */
+      padding: 20px 40px; /* Increase padding to make the button bigger */
+      width: 200px; /* Set fixed width (optional, adjust as needed) */
+      cursor: pointer; /* Add pointer cursor on hover */
+      border-radius: 5px; /* Rounded corners for the buttons */
+      border: none; /* Remove default border */
+      background-color: #292929; /* Button background color */
+      color: white; /* Button text color */
+      transition: background-color 0.3s ease; /* Smooth hover effect */
+      margin-top: 25px; /* Space between buttons (top) */
+      margin-left: 48px; /* Space between buttons (left) */
+    }
+    .form-container form input[type="submit"]:hover {
+      background-color: #45a049; /* Darker background on hover */
+    }
+    h1 {
+      font-size: 100px;
+      font-family: cursive;
+      text-align: center;
+      color: white;
+      text-shadow: 4px 4px black;
+    }
+    #tips {
+      font-size: 20px;
+      font-family: verdana;
+      text-align: center;
+      color: black;
+      background-color: rgba(255, 255, 255, 0.8);
+      width:1200px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px;
+    }
+    #topics {
+      font-size: 28px;
+      font-family: verdana;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="buttons-container">
+    <div class="form-container">
+      <form action="Home.html" method="post">
+        <input type="submit" value="Home">
+      </form>
+    </div>
+    <div class="form-container">
+      <form action="About.html" method="post">
+        <input type="submit" value="About">
+      </form>
+    </div>
+    <div class="form-container">
+      <form action="BestRecipes.html" method="post">
+        <input type="submit" value="Best Recipes">
+      </form>
+    </div>
+    <div class="form-container">
+      <form action="BakingTips.html" method="post">
+        <input type="submit" value="Baking Tips">
+      </form>
+    </div>
+    <div class="form-container">
+      <form action="Reviews.html" method="post">
+        <input type="submit" value="Reviews">
+      </form>
+    </div>
+    <div class="form-container">
+      <form action="Contact.html" method="post">
+        <input type="submit" value="Contact">
+      </form>
+    </div>
+  </div>
+
+  <h1>Baking Tips</h1>
+
+  <ul>
+    <li><div id="tips"><div id="topics">Measure ingredients accurately</div><br>
+      Accurate measurement is essential in baking because precise ratios
+      control the chemical reactions that determine texture, rise, and flavor.</div></li>
+
+    <li><div id="tips"><div id="topics">Allow eggs and butter to reach room temperature before baking</div><br>
+      Room-temperature eggs and butter help your batter blend smoothly, trap air for lift, and bake evenly
+      resulting in a lighter, more consistent final product.</div></li>
+
+    <li><div id="tips"><div id="topics">Rotate the baking tray halfway through the baking time</div><br>
+      Rotating the baking tray halfway through ensures even baking by exposing all sides of the food to the ovens heat evenly,
+      preventing undercooked or overbrowned spots.</div></li>
+  </ul>
+  
+</body>
+
+</html>
+

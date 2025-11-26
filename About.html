@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Denzel Baking About</title>
+  <style>
+    body {
+      background-image: url(AboutBG.png);
+      background-repeat: no-repeat; /* Ensure the background does not repeat */
+      background-attachment: fixed;
+      background-size: cover;
+      margin: 0;
+      height: 100vh; /* Ensure the body takes full viewport height */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start; /* Align content to the top */
+    }
+    .buttons-container {
+      display: flex;
+      justify-content: flex-start; /* Align buttons to the top */
+      align-items: center; /* Vertically center the buttons */
+      width: 100%; /* Ensure the container takes the full width */
+      background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+      padding-bottom: 25px;
+    }
+    .form-container form input[type="submit"] {
+      font-size: 18px; /* Increase font size */
+      padding: 20px 40px; /* Increase padding to make the button bigger */
+      width: 200px; /* Set fixed width (optional, adjust as needed) */
+      cursor: pointer; /* Add pointer cursor on hover */
+      border-radius: 5px; /* Rounded corners for the buttons */
+      border: none; /* Remove default border */
+      background-color: #292929; /* Button background color */
+      color: white; /* Button text color */
+      transition: background-color 0.3s ease; /* Smooth hover effect */
+      margin-top: 25px; /* Space between buttons (top) */
+      margin-left: 48px; /* Space between buttons (left) */
+    }
+    .form-container form input[type="submit"]:hover {
+      background-color: #45a049; /* Darker background on hover */
+    }
+    h1 {
+      font-size: 100px;
+      font-family: cursive;
+      text-align: center;
+      color: white;
+      text-shadow: 4px 4px black;
+    }
+    #paragraphs {
+      font-size: 15px;
+      font-family: verdana;
+      text-align: center;
+      color: black;
+      background-color: rgba(255, 255, 255, 0.8);
+      width:500px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="buttons-container">
+    <div class="form-container">
+      <form action="Home.html" method="post">
+        <input type="submit" value="Home">
+      </form>
+    </div>
+    <div class="form-container">
+      <form action="About.html" method="post">
+        <input type="submit" value="About">
+      </form>
+    </div>
+    <div class="form-container">
+      <form action="BestRecipes.html" method="post">
+        <input type="submit" value="Best Recipes">
+      </form>
+    </div>
+    <div class="form-container">
+      <form action="BakingTips.html" method="post">
+        <input type="submit" value="Baking Tips">
+      </form>
+    </div>
+    <div class="form-container">
+      <form action="Reviews.html" method="post">
+        <input type="submit" value="Reviews">
+      </form>
+    </div>
+    <div class="form-container">
+      <form action="Contact.html" method="post">
+        <input type="submit" value="Contact">
+      </form>
+    </div>
+  </div>
+
+  <h1>About</h1><br>
+  <div id="paragraphs">
+    My name is Denzel, a baker from Seattle.<br>
+    This is a place where I share my love for baking.
+  </div>
+
+  <div id="paragraphs">
+    I discovered my love for baking at the age of 10 when<br>
+    I baked my first batch of chocolate chip cookies with grandma.<br>
+    The joy of creating something delicious from scratch enthralled me.<br>
+    Over the years, I honed my skills by experimenting with various<br>
+    recipes and even creating some my own.<br>
+    My dream is to share the joy of baking with others<br>
+    and inspire them to create their own baked wonders.
+  </div>
+
+</body>
+
+</html>
+
